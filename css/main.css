@@ -152,6 +152,7 @@ li {
 
 .menu_item_image {
     flex: 1;
+    width: 20%;
 }
 
 .menu_item img {
@@ -162,7 +163,7 @@ li {
 }
 
 .menu_item_text {
-    width: 45%;
+    width: 80%;
     text-align: left;
     padding: 20px;
 }
@@ -194,7 +195,7 @@ li {
 }
 
 .coffee_menu_item img {
-    width: 100%;
+    width: 55%;
     margin-right: 20px;
 }
 
@@ -208,7 +209,7 @@ li {
 
 /* Adjusting margin for items */
 .menu_item_text {
-    width: 45%;
+    width: 80%;
     text-align: left;
     margin-left: 20px;
 }
