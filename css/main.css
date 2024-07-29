@@ -1,22 +1,28 @@
 @charset "utf-8";
+
 html {
   height: 100%;
 }
+
 body {
   position: relative;
   padding-bottom: 75px;
   min-height: 100%;
 }
+
 li {
   list-style: none;
 }
+
 p, ul {
   margin: 0;
   padding: 0;
 }
+
 div,li {
   box-sizing: border-box;
 }
+
 .header_nav {
   background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
   display: flex;
@@ -27,6 +33,7 @@ div,li {
   top: 0;
   width: 100%;
 }
+
 .global_nav_item {
   color: #fff;
   text-decoration: none;
@@ -34,36 +41,45 @@ div,li {
   align-items: center;
   padding: 0 20px;
 }
+
 .global_nav_item:hover {
   background: #fff;
   color: #42210b;
 }
+
 .global_nav {
   display: flex;
   align-items: stretch;
 }
+
 .logo {
   width: 120px;
   display: flex;
   align-items: center;
 }
+
 .logo img{
   width: 100%;
 }
+
 .section_inner {
   padding: 50px 10% 30px;
 }
+
 .alinear {
     display: flex;
     flex-direction: row;
 }
+
 .alinear p {
     width: 60%;
 }
+
 .alinear img {
     width: 35%;
     margin-left: 2rem;
 }
+
 .key {
   height: 500px;
   background: center / cover no-repeat url("../images/sample_key.jpg");
@@ -72,15 +88,18 @@ div,li {
   display: flex;
   align-items: center;
 }
+
 .key h1{
   font-size: 2.5rem;
 }
+
 .section_title {
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
   text-align: center;
   margin-bottom: 50px;
 }
+
 .menu_title {
   display: inline-block;
   font-family: 'Noto Serif JP', serif;
@@ -89,24 +108,28 @@ div,li {
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
 }
+
 .center {
   text-align: center;
 }
+
 .coffee_menu_image {
   width: 20%;
   border-radius: 50%;
 }
+
 /* MENU */
 .fondo-menu {
     background: center / cover no-repeat url(../images/sample_menu_bg.jpg);
     background-attachment: fixed;
 }
+
 .menu_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
+
 .menu_list_recommended {
   padding-bottom: 50px;
 }
@@ -116,6 +139,7 @@ div,li {
   flex-direction: row-reverse;
   margin-bottom: 20px;
 }
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
@@ -128,16 +152,19 @@ div,li {
   font-size: 18px;
   font-family: 'Noto Serif JP', serif;
 }
+
 .menu_item_price {
   color: #42210b;
   font-size: 18px;
   text-align: right;
 }
+
 .menu_item_image {
   width: 55%;
   object-fit: cover;
   height: 300px;
 }
+
 .menu_title {
   display: inline-block;
   font-family: 'Noto Serif JP', serif;
@@ -147,6 +174,7 @@ div,li {
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
 }
+
 .coffee_menu {
   background: #fff;
   padding: 20px;
@@ -159,22 +187,26 @@ div,li {
   align-items: center;
   padding: 10px;
 }
+
 .coffee_menu_content {
   width: 80%;
   padding: 10px;
-  margin-bottom: 20px;
 }
+
 /* ACCESSS */
 .info {
   display: flex;
 }
+
 .info_title {
   width: 80px;
 }
+
 .frame_area {
   position: relative;
   width: 100%;
 }
+
 /* FOOTER */
 .footer {
   width: 100%;
