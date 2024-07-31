@@ -6,9 +6,10 @@
     <title>DIC cafe</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   </head>
-
   <body>
     <header>
       <nav class="header_nav">
@@ -25,135 +26,121 @@
           </a>
         </ul>
       </nav>
-      <div class="key section_inner centrar">
-        <div class="centrar">
-            <h1>DIC Coffee</h1>
-            <p>natural organic cafe</p>
-        </div>
+      <div class="key section_inner">
+        <h1>DIC Coffee</h1>
+        <p>natural organic cafe</p>
       </div>
     </header>
     <section>
       <article class="section_inner">
         <div class="section_title">
           <h1>CONCEPT</h1>
-          <p>El compromiso de DIC Coffee</p>
+          <p>DIC Coffeeのこだわり</p>
         </div>
-        <div class="alinear">
-            <p>
-              El café de DIC Coffee procede de Ruanda<strong>'Alubias DIC'.</strong>con lo siguiente.<br>
-              Nuestro café procede directamente de caficultores contratados.<br>
-              Se trata de una taza con una acidez y riqueza equilibradas, con un dulzor afrutado. Disfrute de una taza de nuestra especialidad.
-              Disfrútalo.<br>
-              <small>※DIC Cafe está contratado y gestionado por Daibic Ltd. con la granja.</small>
-            </p>
-            <img src="images/sample_concept.jpg">
+        <div class="content">
+        <p>
+          DIC Coffeeのコーヒーはルワンダ産のコーヒー豆<strong>「DIC Beans」</strong>を使用しています。<br>
+          直接契約したコーヒー農家から仕入れております。<br>
+          バランスの取れた酸味とコクに、フルーティな甘さを感じられる１杯です。ぜひ、こだわりの１杯を
+          お楽しみください。<br>
+          <small>※DIC Cafeは株式会社ダイビックが農場と契約、運営しています。</small>
+        </p>
+        <img src="images/sample_concept.jpg" width="300rem">
         </div>
       </article>
-      <div class="fondo-menu">
-        <article class="section_inner menu_section">
-          <h1 id="menu" class="section_title">MENU</h1>
-          <section>
-              <div class="center">
-                  <h1 class="menu_title">Recommended menu</h1>
+      <article class="section_inner articleMenu">
+        <h1 class="section_title" id="menu">MENU</h1>
+        <section>
+          <div class="center">
+            <h1 class="menu_title">Recommended menu</h1>
+          </div>
+          <ul class="horizontal-list">
+            <li>
+              <img src="images/sample_pancake1.jpg" width="55%" class="pancake-image">
+              <div class="pancake-content">
+              <h2><strong style="font-size: 27px;">ブルーベリーパンケーキ</strong></h2>
+              <p>フレッシュなブルーベリーをトッピングしたパンケーキです</p>
+              <p class="price">¥1,200</p>
               </div>
-              <ul class="menu_list menu_list_recommended">
-                  <li class="menu_item">
-                      <div class="menu_item_content">
-                          <h2 class="menu_item_title">Tortitas de arándanos</h2>
-                          <p>Tortitas cubiertas con arándanos frescos.</p>
-                          <p class="menu_item_price">¥1,200</p>
-                      </div>
-                      <img src="images/sample_pancake1.jpg" class="menu_item_image">
-                  </li>
-                  <li class="menu_item">
-                      <div class="menu_item_content">
-                          <h2 class="menu_item_title">Tortitas de fresa</h2>
-                          <p>Disfrute de la colaboración de las fresas y la miel.</p>
-                          <p class="menu_item_price">¥1,300</p>
-                      </div>
-                      <img src="images/sample_pancake2.jpg" class="menu_item_image">
-                  </li>
-              </ul>
-          </section>
-          <section>
-              <div class="center">
-                  <h1 class="menu_title">Coffee menu</h1>
+            </li>
+            <li>
+              <img src="images/sample_pancake2.jpg" width="55%" class="pancake-image">
+              <div class="pancake-content">
+              <h2><strong style="font-size: 27px;">ストロベリーパンケーキ</strong></h2>
+              <p>イチゴとはちみつのコラボレーションをお楽しみください</p>
+              <p class="price">¥1,300</p>
               </div>
-              <ul class="menu_list coffee_menu">
-                  <li class="coffee_menu_list_item">
-                      <div class="coffee_menu_content">
-                          <h2 class="menu_item_title">Café mezclado</h2>
-                          <p class="coffee_menu_image">¥400</p>
-                      </div>
-                      <img src="images/sample_cafe1.jpg" class="coffee_menu_image">
-                  </li>
-                  <li class="coffee_menu_list_item">
-                      <div class="coffee_menu_content">
-                          <h2 class="menu_item_title">café con leche</h2>
-                          <p class="coffee_menu_image">¥500</p>
-                      </div>
-                      <img src="images//sample_cafe2.jpg" class="coffee_menu_image">
-                  </li>
-                  <li class="coffee_menu_list_item">
-                      <div class="coffee_menu_content">
-                          <h2 class="menu_item_title">Café con leche</h2>
-                          <p class="coffee_menu_image">¥450</p>
-                      </div>
-                      <img src="images//sample_cafe3.jpg" class="coffee_menu_image">
-                  </li>
-                  <li class="coffee_menu_list_item">
-                      <div class="coffee_menu_content">
-                          <h2 class="menu_item_title">café helado</h2>
-                          <p class="coffee_menu_image">¥350</p>
-                      </div>
-                      <img src="images//sample_cafe4.jpg" class="coffee_menu_image">
-                  </li>
-              </ul>
-          </section>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <div class="center">
+            <h1 class="menu_title">Coffee menu</h1>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/sample_cafe1.jpg" class="coffee_menu_image">
+              <div class="menu-details">
+                <h2>ブレンドコーヒー</h2>
+                <p>¥400</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/sample_cafe2.jpg" class="coffee_menu_image">
+              <div class="menu-details">
+              <h2>アートラテ</h2>
+              <p>¥500</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/sample_cafe3.jpg" class="coffee_menu_image">
+              <div class="menu-details">
+                <h2>カフェラテ</h2>
+                <p>¥450</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/sample_cafe4.jpg" class="coffee_menu_image">
+              <div class="menu-details">
+                <h2>アイスコーヒー</h2>
+                <p>¥350</p>
+              </div>
+            </li>
+          </ul>
+        </section>
       </article>
-      </div>
       <article class="section_inner">
         <div class="section_title">
           <h1>ACCESS</h1>
-          <p>Información de la tienda</p>
+          <p>店舗情報</p>
         </div>
-        <dl class="info">
-          <dt class="info_title">Horario de apertura </dt>
-          <dd>10:00 - 19:00<br>Cerrado los jueves</dd>
+        <dl>
+          <dt>営業時間</dt>
+          <dd>10:00 - 19:00<br>木曜日定休</dd>
         </dl>
-        <dl class="info">
-          <dt class="info_title">Dirección</dt>
+        <dl>
+          <dt>住所</dt>
           <dd>
-            Oba Building A, 28-4, Maruyama-cho, Shibuya-ku, Tokio 150-0044, Japón<br>
+            〒150-0044 東京都渋谷区円山町28番4号大場ビルA館<br>
             TEL:03-5459-1808
           </dd>
         </dl>
-        <iframe class="frame_area"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8625569899887!2d139.6922821152582!3d35.65575778020021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b55bb707eff%3A0x5f04575eb7aca63e!2z44CSMTUwLTAwNDQg5p2x5Lqs6YO95riL6LC35Yy65YaG5bGx55S677yS77yY4oiS77yUIE9iYSBCbGQuIEHppKg!5e0!3m2!1sja!2sjp!4v1589613763992!5m2!1sja!2sjp"
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7913571222703!2d139.69046713301034!3d35.65751180193279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b55f6683353%3A0x8738cbce02d28702!2s4%20Maruyamach%C5%8D%2C%20Shibuya%20City%2C%20Tokyo%20150-0044%2C%20Jap%C3%B3n!5e0!3m2!1ses!2spy!4v1708645447993!5m2!1ses!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
           width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
           tabindex="0"></iframe>
       </article>
     </section>
-    <footer class="footer">
+    <footer>
       <nav>
-        <ul class="footer_nav">
-         <a class="footer_nav_item"   href="index.html">
-            <li>Home</li>
-          </a>
-          <a class="footer_nav_item" href="#menu">
-            <li>Menu</li>
-          </a>
-          <a class="footer_nav_item" href="contact.html">
-            <li>Contact</li>
-          </a>
-          <a class="footer_nav_item" href="index.html">
-            <li>
-              <img class="footer_logo" src="images/sample_logo_w.png">
-            </li>
-          </a>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="index.html"><img src="images/sample_logo_w.png"></a></li>
         </ul>
       </nav>
-      <p class="footer_right">© DIVIC Corp. All RIGHTS RESERVED.</p>
+      <p>© DIVIC Corp. All RIGHTS RESERVED.</p>
     </footer>
   </body>
 
