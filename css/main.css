@@ -34,7 +34,7 @@ li {
 
 .key {
     height: 500px;
-    background: center / cover no-repeat url(../imagenes/sample_key.jpg);
+    background: center / cover no-repeat url(/images/sample_key.jpg);
     font-weight: bold;
     margin-top: 0%;
     display: flex;
@@ -86,7 +86,7 @@ li {
 /* aqui tambien*/
 
 .articleMenu {
-    background-image: url(../imagenes/sample_menu_bg.jpg);
+    background-image: url(/images/sample_menu_bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
